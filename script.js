@@ -1100,8 +1100,8 @@
     google.script.run.withSuccessHandler(function(list) {
       var targetBidang = (bidangTerlogin || "Akuntansi").trim().toLowerCase();
       var namaKabid = "Kepala Bidang " + (bidangTerlogin || "Akuntansi");
-      var namaSekda = "KASIYANTO, SIP, MM";
-      var namaKaban = "YAYUK SRI RAHAYU, SE";
+      var namaSekda = "KARSONO, SIP, MM";
+      var namaKaban = "YAYUK BASUKI, SE";
 
       if (list && list.length > 0) {
         list.forEach(function(item) {
